@@ -1,0 +1,374 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background:url('images/achtergrond2.png');
+	line-height: 20px;
+}
+
+p {
+	line-height: 20px;
+	text-align: left;
+	margin: 10px 10px;
+	padding: 0;
+}
+
+ul {
+	text-align: left;
+	margin: 10px 20px;
+	padding: 0;
+}
+
+h1 {
+	margin: 10px 10px;
+	padding: 0;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+h2 {
+	margin: 10px 10px;
+	padding: 0;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+h3 {
+	margin: 10px 10px;
+	padding: 0;
+	font-size: 22px;
+	line-height: 40px;
+}
+
+table {
+	text-indent: 10px;
+}
+
+#wrapper { 
+	margin: 0;
+	padding: 10px;
+	width: 95%;
+}
+
+#header {
+	background:url('images/achtergrond2.png');
+	width: 100%;
+	float: left;
+	height: 75px;
+	border-top: 2px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+}
+
+#textcolumn {
+	position: absolute;
+	float: left;
+	top: 98px;
+	left: 205px;
+	right: 300px;
+	height: auto;
+	color: #333366;
+	background: #FFFFFF;
+}
+
+#photocolumn {
+	position: absolute;
+	float: left;
+	top: 98px;
+	left: 205px;
+	width: 815px;
+	color: #333366;
+	background: #FFFFFF;
+}
+
+#achtergrond {
+	background: url('images/achtergrond.png') repeat-y;
+	float: left;
+	width: 362px;
+	height: 450px;
+	border-left: 2px solid #FFFFFF;
+}
+
+#map_canvas {
+	position: absolute;
+	float: left;
+	top: 180px;
+	left: 205px;
+	right: 300px;
+	height: 60%;
+	width: auto;
+	border: 2px solid #FFFFFF;
+}
+
+#figure1 {
+	position: relative;
+	float: right;
+	margin: -60px 10px 20px 0;
+	border: 2px solid #FFFFFF;
+	clear: right;
+}
+
+#figure2 {
+	position: relative;
+	float: right;
+	margin: 0 10px 20px 0;
+	border: 2px solid #FFFFFF;
+	clear: right;
+}
+
+.mainmenu{
+	position: absolute;
+	top: 88px;
+	left: 20px;
+}
+
+.mainmenu a {
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	outline: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 40px;
+	height: 40px;
+	margin-left: 22px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.mainmenu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.mainmenu li {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	list-style-type: none;
+	background: url('images/menu_back1.png') 0px -0px no-repeat;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #9999CC;
+	border-right: 1px solid #9999CC;
+	padding: 0;
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+.mainmenu ul ul {
+	margin-top: -41px;
+	margin-left: 152px;
+	margin-bottom: 0;
+	padding: 0;
+	visibility: hidden;
+}
+
+.mainmenu li li {
+	width: 230px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	background: #333366;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #333366;
+	border-right: 1px solid #333366;
+}
+
+.mainmenu li li a {
+	margin-left: 12px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.mainmenu li:hover ul
+{
+	visibility: visible;
+	left: 153px;
+}
+
+.mainmenu li:hover{
+	background: url('images/menu_back2.png') 0px 0px no-repeat;
+	border-bottom: 1px solid #333366;
+	border-right: 1px solid #333366;
+}
+
+.mainmenu li li:hover{
+	background: #9999CC;
+	border-bottom: 1px solid #333366;
+	border-right: 1px solid #333366;
+}
+
+.mainmenu li a.active {
+	color: #FFE000;
+}
+
+/* image hover */
+
+a.imagehover, a.imagehover:visited {
+	color: #333366;
+}
+
+a.imagehover:hover {
+	color: #9999CC;
+}
+
+a.imagehover b {
+	visibility: hidden;
+}
+
+a.imagehover:hover b {
+	position: absolute;
+	top: 270px;
+	left: -213px;
+	padding: 0;
+	visibility: visible;
+}
+
+a.imagehover:hover b img {
+	border: 0;
+}
+
+/* stamboom */
+
+.nav {
+	position: relative;
+	padding: 0;
+	margin: 30px 0 0 10px;
+	vertical-align: top;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul a {
+	display: block;
+	margin-top: -20px;
+	padding-left: 5px;
+	line-height: 22px;
+	text-decoration: none;
+	outline: none;
+	background: #9999CC;
+	border: #333366 solid 2px;
+	color: #FFFFFF;
+}
+
+.nav ul a:hover {
+	border: #333366 solid 2px;
+	color: #FFFFFF;
+	background: #333366;
+}
+
+.nav ul a:visited {
+	color: #FFFFFF;
+}
+
+.nav ul.twee {
+	margin-left: 20px;
+	border-left: #333366 solid 2px;
+}
+
+.nav ul.drie, .nav ul.vier, .nav ul.vijf {
+	margin-left: 40px;
+	border-left: #333366 solid 2px;
+}
+
+.nav ul.een a {
+	width: 300px;
+	margin-left: 0px;
+	height: 22px;
+}
+
+.nav ul.twee a, .nav ul.drie a, .nav ul.vier.a, .nav ul.vijf.a {
+	margin-top: -12px;
+	margin-left: 24px;
+	height: 22px;
+}
+
+.nav span.hoek {
+	display: block;
+	width: 24px;
+	height: 33px;
+	margin: 0;
+	padding: 0;
+	border-bottom: #333366 solid 2px;
+}
+
+.nav ul span.onderste {
+	position: absolute;
+	top: 404px;
+	left: 19px;
+	width: 5px;
+	height: 310px;
+	background: #FFFFFF;
+}
+
+.nav ul.drie span.onderste1 {
+	position: absolute;
+	top: 257px;
+	left: 60px;
+	width: 5px;
+	height: 112px;
+	background: #FFFFFF;
+}
+
+.nav ul.drie span.onderste2 {
+	position: absolute;
+	top: 600px;
+	left: 60px;
+	width: 5px;
+	height: 112px;
+	background: #FFFFFF;
+}
+
+.nav ul.vier span.onderste1 {
+	position: absolute;
+	top: 208px;
+	left: 103px;
+	width: 5px;
+	height: 15px;
+	background: #FFFFFF;
+}
+
+.nav ul.vier span.onderste2 {
+	position: absolute;
+	top: 355px;
+	left: 103px;
+	width: 5px;
+	height: 15px;
+	background: #FFFFFF;
+}
+
+.nav ul.vier span.onderste3 {
+	position: absolute;
+	top: 551px;
+	left: 103px;
+	width: 5px;
+	height: 15px;
+	background: #FFFFFF;
+}
+
+.nav ul.vier span.onderste4 {
+	position: absolute;
+	top: 698px;
+	left: 103px;
+	width: 5px;
+	height: 15px;
+	background: #FFFFFF;
+}
